@@ -1,1 +1,26 @@
 node_modules
+# Ignore compiled files
+*.o
+*.out
+*.exe
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore generated files
+node_modules/
+dist/
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
