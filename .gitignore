@@ -16,6 +16,7 @@ dist/
 # Ignore environment-specific files
 .env
 .env.local
+backend/config/config.env
 
 # Ignore editor-specific files
 .vscode/
